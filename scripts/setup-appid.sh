@@ -234,7 +234,7 @@ echo "************************************"
 echo " CLI config"
 echo "************************************"
 
-setupCLIenvCE
+createAppIDService
 
 echo "************************************"
 echo " AppID creation"
