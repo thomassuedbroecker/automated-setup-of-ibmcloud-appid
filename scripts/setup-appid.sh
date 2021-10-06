@@ -105,6 +105,7 @@ function configureAppIDInformation(){
     echo ""
     sed "s+FRONTENDNAME+$FRONTEND_NAME+g" ./appid-configs/add-application-template.json > ./$ADD_APPLICATION
     result=$(curl -d @./$ADD_APPLICATION -H "Content-Type: application/json" -H "Authorization: Bearer $OAUTHTOKEN" $MANAGEMENTURL/applications)
+    rm -f ./$ADD_APPLICATION
     echo "-------------------------"
     echo "Result application: $result"
     echo "-------------------------"
