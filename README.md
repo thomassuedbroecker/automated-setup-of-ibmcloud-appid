@@ -1,1 +1,1 @@
-For details visit the this [blog post](https://suedbroecker.net/2021/10/06/automated-setup-of-an-ibm-cloud-app-id-instance-using-a-bash-script/) on <https://suedbroecker.net>.
+For details please visit this [blog post](https://suedbroecker.net/2021/10/06/automated-setup-of-an-ibm-cloud-app-id-instance-using-a-bash-script/) on <https://suedbroecker.net>.
