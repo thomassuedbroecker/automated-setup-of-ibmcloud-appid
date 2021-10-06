@@ -39,10 +39,8 @@ export APPLICATION_OAUTHSERVERURL=""
 # **********************************************************************************
 
 function configureIBMCloudTarget() {
-
-  ibmcloud target -g $RESOURCE_GROUP
   ibmcloud target -r $REGION
-
+  ibmcloud target -g $RESOURCE_GROUP
 }
 
 # **** AppID ****
