@@ -4,6 +4,7 @@
 
 export RESOURCE_GROUP=default
 export REGION="us-south"
+export FRONTEND_NAME="myexamplefrontend"
 export FRONTEND_URL="https://myexamplefrontend.url"
 
 # AppID Service
