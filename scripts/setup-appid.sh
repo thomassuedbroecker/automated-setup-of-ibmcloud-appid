@@ -2,7 +2,7 @@
 
 # **************** Global variables set as default values
 
-export RESOURCE_GROUP=default
+export RESOURCE_GROUP="Default"
 export REGION="us-south"
 export FRONTEND_NAME="myexamplefrontend"
 export FRONTEND_URL="https://myexamplefrontend.url"
