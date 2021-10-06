@@ -7,8 +7,8 @@ export REGION="us-south"
 export FRONTEND_URL="https://myexamplefrontend.url"
 
 # AppID Service
-export YOUR_SERVICE_FOR_APPID=$2
-export APPID_SERVICE_KEY_NAME=$3
+export YOUR_SERVICE_FOR_APPID=appid-example
+export APPID_SERVICE_KEY_NAME=appid-example-key
 export SERVICE_PLAN="lite"
 export APPID_SERVICE_NAME="appid"
 export APPID_SERVICE_KEY_ROLE="Manager"
